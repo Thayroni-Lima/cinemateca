@@ -1,0 +1,1 @@
+ /home/thayroni-lima/Estudos/UNIPÊ/cinemateca/.dart_tool/flutter_build/df98ac14987a539a7143154d149034f2/native_assets.json: 
