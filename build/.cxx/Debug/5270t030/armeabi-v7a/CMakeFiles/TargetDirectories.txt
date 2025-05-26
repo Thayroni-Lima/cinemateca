@@ -1,0 +1,2 @@
+/home/thayroni-lima/Estudos/UNIPÊ/cinemateca/build/.cxx/Debug/5270t030/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/thayroni-lima/Estudos/UNIPÊ/cinemateca/build/.cxx/Debug/5270t030/armeabi-v7a/CMakeFiles/rebuild_cache.dir
