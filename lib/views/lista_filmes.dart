@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import '../models/filme.dart';
 import '../database/db_helper.dart';
+import 'cria_filme.dart';
 
 class ListaFilmesPage extends StatefulWidget {
   const ListaFilmesPage({super.key});
@@ -148,6 +149,16 @@ class _ListaFilmesPageState extends State<ListaFilmesPage> {
             ),
           );
         },
+      ),
+
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (_) => const CriaFilmePage()),
+          ).then((_) => carregarFilmes()); // recarrega ao voltar
+        },
+        child: const Icon(Icons.add),
       ),
     );
   }
