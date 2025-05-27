@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:smooth_star_rating_null_safety/smooth_star_rating_null_safety.dart';
 import '../models/filme.dart';
 import '../database/db_helper.dart';
+import '../controllers/controller_filme.dart';
 
 class CriaFilmePage extends StatefulWidget {
   const CriaFilmePage({super.key});
@@ -18,6 +19,7 @@ class _CriaFilmePageState extends State<CriaFilmePage> {
   final _descricaoController = TextEditingController();
   final _duracaoController = TextEditingController();
   final _anoController = TextEditingController();
+  final FilmeController _controller = FilmeController();
 
   String? _faixaEtariaSelecionada;
   double _pontuacao = 0;
@@ -37,10 +39,17 @@ class _CriaFilmePageState extends State<CriaFilmePage> {
         ano: int.tryParse(_anoController.text) ?? 0,
       );
 
-      await DBHelper().inserirFilme(novoFilme);
-      Navigator.pop(context); // Volta para tela de listagem
+      try {
+        await _controller.inserirFilme(novoFilme);
+        Navigator.pop(context); // Volta para tela de listagem
+      } catch (e) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('Erro: ${e.toString()}')),
+        );
+      }
     }
   }
+
 
   @override
   Widget build(BuildContext context) {
