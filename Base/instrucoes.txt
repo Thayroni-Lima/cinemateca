@@ -1,0 +1,29 @@
+✅ Requisitos do Projeto Flutter
+
+👥 Grupo
+	Máximo de 4 integrantes por grupo.
+	Incluir nome completo de todos os integrantes na entrega.
+	Apenas um membro do Grupo deve realizar a entrega no blackboard.
+
+📝 Avaliação
+	O projeto valerá 2,5 pontos da prova.
+
+📅 Prazo de Entrega
+	06/06 (entrega obrigatória nesta data).
+
+📦 Itens obrigatórios da entrega
+	Link do GitHub do projeto
+	Deve conter todos os commits relevantes com histórico de desenvolvimento.
+	Vídeo explicativo (máx. 10 minutos)
+	Explicar:
+		As funcionalidades da aplicação.
+		A arquitetura em camadas utilizada.
+		As classes de acesso ao banco de dados.
+		Estrutura de gerenciamento de estados.
+		Nome dos integrantes do grupo.
+
+🎨 Layout
+	O projeto deve seguir a estrutura de layout descrita no documento fornecido (verifique se há um anexo ou link com esse layout).
+
+💻 Tecnologia obrigatória
+	Flutter deve ser utilizado no desenvolvimento da aplicação.
