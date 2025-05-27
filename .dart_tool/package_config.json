@@ -128,6 +128,12 @@
       "languageVersion": "3.7"
     },
     {
+      "name": "smooth_star_rating_null_safety",
+      "rootUri": "file:///home/thayroni-lima/.pub-cache/hosted/pub.dev/smooth_star_rating_null_safety-1.0.4+2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "source_span",
       "rootUri": "file:///home/thayroni-lima/.pub-cache/hosted/pub.dev/source_span-1.10.1",
       "packageUri": "lib/",
