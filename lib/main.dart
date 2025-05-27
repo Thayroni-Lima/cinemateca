@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'database/db_helper.dart';
 import 'models/filme.dart';
+import 'views/lista_filmes.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,62 +12,51 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Executa testarDB() após o build da interface
+    // Insere os filmes de teste após o primeiro frame
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      testarDB();
+      inserirFilmesDeTeste();
     });
 
     return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Testando DB... Veja o Logcat com filtro "flutter".'),
-        ),
-      ),
+      debugShowCheckedModeBanner: false,
+      home: ListaFilmesPage(),
     );
   }
 
-  Future<void> testarDB() async {
-    try {
-      final db = DBHelper();
+  Future<void> inserirFilmesDeTeste() async {
+    final db = DBHelper();
+    final filmes = await db.listarFilmes();
 
-      // Criar filme de teste
-      Filme novoFilme = Filme(
-        imagemUrl: 'https://via.placeholder.com/150',
-        titulo: 'Filme Teste',
-        genero: 'Ação',
+    // Só insere se o banco estiver vazio
+    if (filmes.isEmpty) {
+      Filme filme1 = Filme(
+        imagemUrl: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg',
+        titulo: 'A Origem',
+        genero: 'Ficção Científica',
         faixaEtaria: '14',
-        duracao: 120,
-        pontuacao: 4.5,
-        descricao: 'Filme criado para teste.',
-        ano: 2024,
+        duracao: 148,
+        pontuacao: 3.5,
+        descricao: 'Um ladrão que invade sonhos para roubar segredos corporativos.',
+        ano: 2010,
       );
 
-      // Inserir
-      await db.inserirFilme(novoFilme);
-      debugPrint('✅ Filme inserido.');
+      Filme filme2 = Filme(
+        imagemUrl: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg',
+        titulo: 'Interestelar',
+        genero: 'Drama / Ficção',
+        faixaEtaria: '10',
+        duracao: 169,
+        pontuacao: 1,
+        descricao: 'Uma equipe viaja por um buraco de minhoca em busca de um novo lar para a humanidade.',
+        ano: 2014,
+      );
 
-      // Listar
-      List<Filme> filmes = await db.listarFilmes();
-      for (var filme in filmes) {
-        debugPrint('🎬 Título: ${filme.titulo}, Nota: ${filme.pontuacao}');
-      }
 
-      // Atualizar
-      if (filmes.isNotEmpty) {
-        Filme primeiro = filmes[0];
-        primeiro.titulo = 'Filme Atualizado';
-        await db.atualizarFilme(primeiro);
-        debugPrint('✏️ Filme atualizado.');
-      }
-
-      // Deletar
-      if (filmes.isNotEmpty) {
-        await db.deletarFilme(filmes[0].id!);
-        debugPrint('🗑️ Filme deletado.');
-      }
-    } catch (e, stack) {
-      debugPrint('⚠️ Erro ao testar DB: $e');
-      debugPrint(stack.toString());
+      await db.inserirFilme(filme1);
+      await db.inserirFilme(filme2);
+      debugPrint('🎬 Filmes fictícios inseridos com sucesso!');
+    } else {
+      debugPrint('📁 Banco já possui filmes, nada foi inserido.');
     }
   }
 }
