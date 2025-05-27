@@ -3,6 +3,8 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import '../models/filme.dart';
 import '../database/db_helper.dart';
 import 'cria_filme.dart';
+import '../controllers/controller_filme.dart';
+
 
 class ListaFilmesPage extends StatefulWidget {
   const ListaFilmesPage({super.key});
@@ -12,7 +14,7 @@ class ListaFilmesPage extends StatefulWidget {
 }
 
 class _ListaFilmesPageState extends State<ListaFilmesPage> {
-  final DBHelper _dbHelper = DBHelper();
+  final FilmeController _controller = FilmeController();
   List<Filme> _filmes = [];
 
   @override
@@ -22,7 +24,7 @@ class _ListaFilmesPageState extends State<ListaFilmesPage> {
   }
 
   Future<void> carregarFilmes() async {
-    final filmes = await _dbHelper.listarFilmes();
+    final filmes = await _controller.listarFilmes();
     setState(() {
       _filmes = filmes;
     });
@@ -103,7 +105,7 @@ class _ListaFilmesPageState extends State<ListaFilmesPage> {
               );
             },
             onDismissed: (_) async {
-              await _dbHelper.deletarFilme(filme.id!);
+              await _controller.deletarFilme(filme.id!);
               setState(() {
                 _filmes.removeAt(index);
               });
