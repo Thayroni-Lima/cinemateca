@@ -6,9 +6,9 @@
 // @dart = 3.3
 
 import 'dart:io'; // flutter_ignore: dart_io_import.
-import 'package:sqflite_android/sqflite_android.dart';
-import 'package:sqflite_darwin/sqflite_darwin.dart';
-import 'package:sqflite_darwin/sqflite_darwin.dart';
+import 'package:sqflite/sqflite.dart';
+import 'package:sqflite/sqflite.dart';
+import 'package:sqflite/sqflite.dart';
 
 @pragma('vm:entry-point')
 class _PluginRegistrant {
@@ -17,20 +17,20 @@ class _PluginRegistrant {
   static void register() {
     if (Platform.isAndroid) {
       try {
-        SqfliteAndroid.registerWith();
+        SqflitePlugin.registerWith();
       } catch (err) {
         print(
-          '`sqflite_android` threw an error: $err. '
+          '`sqflite` threw an error: $err. '
           'The app may not function as expected until you remove this plugin from pubspec.yaml'
         );
       }
 
     } else if (Platform.isIOS) {
       try {
-        SqfliteDarwin.registerWith();
+        SqflitePlugin.registerWith();
       } catch (err) {
         print(
-          '`sqflite_darwin` threw an error: $err. '
+          '`sqflite` threw an error: $err. '
           'The app may not function as expected until you remove this plugin from pubspec.yaml'
         );
       }
@@ -38,10 +38,10 @@ class _PluginRegistrant {
     } else if (Platform.isLinux) {
     } else if (Platform.isMacOS) {
       try {
-        SqfliteDarwin.registerWith();
+        SqflitePlugin.registerWith();
       } catch (err) {
         print(
-          '`sqflite_darwin` threw an error: $err. '
+          '`sqflite` threw an error: $err. '
           'The app may not function as expected until you remove this plugin from pubspec.yaml'
         );
       }

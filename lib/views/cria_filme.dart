@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:smooth_star_rating_null_safety/smooth_star_rating_null_safety.dart';
 import '../models/filme.dart';
-import '../database/db_helper.dart';
 import '../controllers/controller_filme.dart';
 
 class CriaFilmePage extends StatefulWidget {
-  const CriaFilmePage({super.key});
+  final Filme? filme;
+
+  const CriaFilmePage({super.key, this.filme});
 
   @override
   State<CriaFilmePage> createState() => _CriaFilmePageState();
@@ -26,9 +27,25 @@ class _CriaFilmePageState extends State<CriaFilmePage> {
 
   final List<String> _faixasEtarias = ['Livre', '10', '12', '14', '16', '18'];
 
+  @override
+  void initState() {
+    super.initState();
+    if (widget.filme != null) {
+      _tituloController.text = widget.filme!.titulo;
+      _generoController.text = widget.filme!.genero;
+      _imagemUrlController.text = widget.filme!.imagemUrl;
+      _descricaoController.text = widget.filme!.descricao;
+      _duracaoController.text = widget.filme!.duracao.toString();
+      _anoController.text = widget.filme!.ano.toString();
+      _faixaEtariaSelecionada = widget.filme!.faixaEtaria;
+      _pontuacao = widget.filme!.pontuacao;
+    }
+  }
+
   void _salvarFilme() async {
     if (_formKey.currentState!.validate()) {
-      Filme novoFilme = Filme(
+      Filme filme = Filme(
+        id: widget.filme?.id,
         imagemUrl: _imagemUrlController.text,
         titulo: _tituloController.text,
         genero: _generoController.text,
@@ -40,8 +57,12 @@ class _CriaFilmePageState extends State<CriaFilmePage> {
       );
 
       try {
-        await _controller.inserirFilme(novoFilme);
-        Navigator.pop(context); // Volta para tela de listagem
+        if (widget.filme == null) {
+          await _controller.inserirFilme(filme);
+        } else {
+          await _controller.atualizarFilme(filme);
+        }
+        Navigator.pop(context);
       } catch (e) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text('Erro: ${e.toString()}')),
@@ -50,11 +71,12 @@ class _CriaFilmePageState extends State<CriaFilmePage> {
     }
   }
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Cadastrar Filme')),
+      appBar: AppBar(
+        title: Text(widget.filme == null ? 'Cadastrar Filme' : 'Editar Filme'),
+      ),
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Form(
@@ -64,27 +86,23 @@ class _CriaFilmePageState extends State<CriaFilmePage> {
               TextFormField(
                 controller: _tituloController,
                 decoration: const InputDecoration(labelText: 'Título'),
-                validator: (value) =>
-                value!.isEmpty ? 'Preencha o título' : null,
+                validator: (value) => value!.isEmpty ? 'Preencha o título' : null,
               ),
               TextFormField(
                 controller: _generoController,
                 decoration: const InputDecoration(labelText: 'Gênero'),
-                validator: (value) =>
-                value!.isEmpty ? 'Preencha o gênero' : null,
+                validator: (value) => value!.isEmpty ? 'Preencha o gênero' : null,
               ),
               TextFormField(
                 controller: _imagemUrlController,
                 decoration: const InputDecoration(labelText: 'URL da Imagem'),
-                validator: (value) =>
-                value!.isEmpty ? 'Preencha a URL da imagem' : null,
+                validator: (value) => value!.isEmpty ? 'Preencha a URL da imagem' : null,
               ),
               TextFormField(
                 controller: _descricaoController,
                 decoration: const InputDecoration(labelText: 'Descrição'),
                 maxLines: 3,
-                validator: (value) =>
-                value!.isEmpty ? 'Preencha a descrição' : null,
+                validator: (value) => value!.isEmpty ? 'Preencha a descrição' : null,
               ),
               TextFormField(
                 controller: _duracaoController,

@@ -1,0 +1,1 @@
+ /home/f/Documentos/cinemateca/.dart_tool/flutter_build/64bf9299ab2544bd23ecba96163996fa/native_assets.yaml: 

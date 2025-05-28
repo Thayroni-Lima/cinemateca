@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d08c9d82-736d-4d46-853f-72d01a19d903" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/dart_plugin_registrant.dart" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/dart_plugin_registrant.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/df98ac14987a539a7143154d149034f2/.filecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/df98ac14987a539a7143154d149034f2/app.dill" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/df98ac14987a539a7143154d149034f2/dart_build.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/df98ac14987a539a7143154d149034f2/dart_build.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/df98ac14987a539a7143154d149034f2/dart_build_result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/df98ac14987a539a7143154d149034f2/debug_android_application.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/df98ac14987a539a7143154d149034f2/flutter_assets.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/df98ac14987a539a7143154d149034f2/gen_dart_plugin_registrant.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/df98ac14987a539a7143154d149034f2/gen_localizations.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/df98ac14987a539a7143154d149034f2/install_code_assets.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/df98ac14987a539a7143154d149034f2/install_code_assets.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/df98ac14987a539a7143154d149034f2/kernel_snapshot_program.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/df98ac14987a539a7143154d149034f2/kernel_snapshot_program.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/df98ac14987a539a7143154d149034f2/native_assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/df98ac14987a539a7143154d149034f2/outputs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_graph.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/version" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/.cmake/api/v1/query/client-agp/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/.cmake/api/v1/query/client-agp/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/.cmake/api/v1/query/client-agp/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/.cmake/api/v1/reply/cache-v2-c95ceedad05abe4d4b04.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/.cmake/api/v1/reply/cmakeFiles-v1-935821a0def731369c2b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/.cmake/api/v1/reply/codemodel-v2-dc9cc0d9c932e5c2f9db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/CMakeFiles/3.22.1-g37088a8/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/CMakeFiles/3.22.1-g37088a8/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/CMakeFiles/3.22.1-g37088a8/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/additional_project_files.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/android_gradle_build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/android_gradle_build_mini.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/build_file_index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/configure_fingerprint.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/metadata_generation_command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/prefab_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/arm64-v8a/symbol_folder_index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/.cmake/api/v1/query/client-agp/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/.cmake/api/v1/query/client-agp/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/.cmake/api/v1/query/client-agp/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/.cmake/api/v1/reply/cache-v2-8ee1d03771a4dedb1ea7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/.cmake/api/v1/reply/cmakeFiles-v1-969a0c7b7f5dbad6017c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/.cmake/api/v1/reply/codemodel-v2-4623e028a146f2314777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/CMakeFiles/3.22.1-g37088a8/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/CMakeFiles/3.22.1-g37088a8/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/CMakeFiles/3.22.1-g37088a8/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/additional_project_files.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/android_gradle_build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/android_gradle_build_mini.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/build_file_index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/configure_fingerprint.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/metadata_generation_command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/prefab_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/armeabi-v7a/symbol_folder_index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/hash_key.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/.cmake/api/v1/query/client-agp/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/.cmake/api/v1/query/client-agp/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/.cmake/api/v1/query/client-agp/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/.cmake/api/v1/reply/cache-v2-d5e543002c4c20be868c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/.cmake/api/v1/reply/cmakeFiles-v1-0b10a3b0914f0e66fad8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/.cmake/api/v1/reply/codemodel-v2-1b6e9c349206cc1821a3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/CMakeFiles/3.22.1-g37088a8/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/CMakeFiles/3.22.1-g37088a8/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/CMakeFiles/3.22.1-g37088a8/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/additional_project_files.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/android_gradle_build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/android_gradle_build_mini.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/build_file_index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/configure_fingerprint.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/metadata_generation_command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/prefab_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86/symbol_folder_index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/.cmake/api/v1/query/client-agp/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/.cmake/api/v1/query/client-agp/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/.cmake/api/v1/query/client-agp/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/.cmake/api/v1/reply/cache-v2-9f76d6dd93fcedb9222e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/.cmake/api/v1/reply/cmakeFiles-v1-f7d1c6d09a5fa26e662c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/.cmake/api/v1/reply/codemodel-v2-583b97af82c6f8ce0f32.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/additional_project_files.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/android_gradle_build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/android_gradle_build_mini.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/build_file_index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/configure_fingerprint.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/metadata_generation_command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/prefab_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cxx/Debug/5270t030/x86_64/symbol_folder_index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/counters.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/local-state/build-history.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/output-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/tmp/kotlin-classes/debug/META-INF/app_debug.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/tmp/kotlin-classes/debug/com/example/cinemateca/MainActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/tmp/packJniLibsflutterBuildDebug/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/b080ffdf02fdc7b1d5d5511b9cbaeb02/_composite.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/b080ffdf02fdc7b1d5d5511b9cbaeb02/gen_dart_plugin_registrant.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/b080ffdf02fdc7b1d5d5511b9cbaeb02/gen_localizations.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/b6862f53c5db0dffd80a6274ce6c73bd.cache.dill.track.dill" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/.transforms/64b698cd2e09de4e2889404ac8174f9d/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/.transforms/64b698cd2e09de4e2889404ac8174f9d/transformed/classes/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/aar_main_jar/debug/syncDebugLibJars/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/compile_symbol_list/debug/generateDebugRFile/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/incremental/debug/packageDebugResources/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/Database$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/Database.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/DatabaseDelegate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/DatabaseTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/DatabaseWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/DatabaseWorkerPool$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/DatabaseWorkerPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/DatabaseWorkerPoolImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/LocaleUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/LogLevel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SingleDatabaseWorkerPoolImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqfliteCursor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqlCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/dev/Debug.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/operation/BaseOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/operation/BaseReadOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/operation/BatchOperation$BatchOperationResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/operation/BatchOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/operation/MethodCallOperation$Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/operation/MethodCallOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/operation/Operation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/operation/OperationResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/operation/OperationRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/operation/QueuedOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/operation/SqlErrorInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/merged_java_res/debug/mergeDebugJavaResource/feature-sqflite_android.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/runtime_library_classes_jar/debug/bundleLibRuntimeToJarDebug/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/outputs/aar/sqflite_android-debug.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sqflite_android/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/views/cria_filme.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/cria_filme.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/views/lista_filmes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/lista_filmes.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2xk5TreUSKpATWnUdw9TmflxWkr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/f/Documentos/cinemateca&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d08c9d82-736d-4d46-853f-72d01a19d903" name="Changes" comment="" />
+      <created>1748469242058</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748469242058</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -3,8 +3,8 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import '../models/filme.dart';
 import '../database/db_helper.dart';
 import 'cria_filme.dart';
+import 'detalhes_filme.dart';
 import '../controllers/controller_filme.dart';
-
 
 class ListaFilmesPage extends StatefulWidget {
   const ListaFilmesPage({super.key});
@@ -56,7 +56,6 @@ class _ListaFilmesPageState extends State<ListaFilmesPage> {
       ),
     );
   }
-
 
   @override
   Widget build(BuildContext context) {
@@ -115,50 +114,89 @@ class _ListaFilmesPageState extends State<ListaFilmesPage> {
             },
             child: Card(
               margin: const EdgeInsets.symmetric(vertical: 8, horizontal: 12),
-              child: ListTile(
-                contentPadding: const EdgeInsets.all(12),
-                leading: ClipRRect(
-                  borderRadius: BorderRadius.circular(8),
-                  child: Image.network(
-                    filme.imagemUrl,
-                    width: 70,
-                    height: 100,
-                    fit: BoxFit.cover,
-                    errorBuilder: (_, __, ___) =>
-                    const Icon(Icons.broken_image, size: 50),
-                  ),
-                ),
-                title: Text(filme.titulo),
-                subtitle: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text('Gênero: ${filme.genero}'),
-                    Text('Ano: ${filme.ano}'),
-                    const SizedBox(height: 5),
-                    RatingBarIndicator(
-                      rating: filme.pontuacao,
-                      itemCount: 5,
-                      itemSize: 20,
-                      physics: const NeverScrollableScrollPhysics(),
-                      itemBuilder: (context, _) => const Icon(
-                        Icons.star,
-                        color: Colors.amber,
-                      ),
+              child: InkWell(
+                onTap: () {
+                  showModalBottomSheet(
+                    context: context,
+                    builder: (_) {
+                      return Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          ListTile(
+                            leading: const Icon(Icons.info_outline),
+                            title: const Text('Exibir Dados'),
+                            onTap: () {
+                              Navigator.pop(context);
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (_) => DetalhesFilmePage(filme: filme),
+                                ),
+                              );
+                            },
+                          ),
+                          ListTile(
+                            leading: const Icon(Icons.edit),
+                            title: const Text('Alterar'),
+                            onTap: () {
+                              Navigator.pop(context);
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (_) => CriaFilmePage(filme: filme),
+                                ),
+                              ).then((_) => carregarFilmes());
+                            },
+                          ),
+                        ],
+                      );
+                    },
+                  );
+                },
+                child: ListTile(
+                  contentPadding: const EdgeInsets.all(12),
+                  leading: ClipRRect(
+                    borderRadius: BorderRadius.circular(8),
+                    child: Image.network(
+                      filme.imagemUrl,
+                      width: 70,
+                      height: 100,
+                      fit: BoxFit.cover,
+                      errorBuilder: (_, __, ___) =>
+                      const Icon(Icons.broken_image, size: 50),
                     ),
-                  ],
+                  ),
+                  title: Text(filme.titulo),
+                  subtitle: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text('Gênero: ${filme.genero}'),
+                      Text('Ano: ${filme.ano}'),
+                      const SizedBox(height: 5),
+                      RatingBarIndicator(
+                        rating: filme.pontuacao,
+                        itemCount: 5,
+                        itemSize: 20,
+                        physics: const NeverScrollableScrollPhysics(),
+                        itemBuilder: (context, _) => const Icon(
+                          Icons.star,
+                          color: Colors.amber,
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ),
           );
         },
       ),
-
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           Navigator.push(
             context,
             MaterialPageRoute(builder: (_) => const CriaFilmePage()),
-          ).then((_) => carregarFilmes()); // recarrega ao voltar
+          ).then((_) => carregarFilmes());
         },
         child: const Icon(Icons.add),
       ),
